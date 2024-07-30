@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>DashBoard</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+          <i class='bx bxl-c-plus-plus'></i>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#" class="active"><i class='bx bx-grid-alt'></i></a></li>
+          <li><a href="#"><i class='bx bx-collection'></i></a></li>
+          <li><a href="#"><i class='bx bx-book-alt'></i></a></li>
+          <li><a href="#"><i class='bx bx-pie-chart-alt-2'></i></a></li>
+          <li><a href="#"><i class='bx bx-line-chart'></i></a></li>
+          <li><a href="#"><i class='bx bx-plug'></i></a></li>
+          <li><a href="#"><i class='bx bx-compass'></i></a></li>
+          <li><a href="#"><i class='bx bx-history'></i></a></li>
+          <li><a href="#"><i class='bx bx-cog'></i></a></li>
+        </ul>
+        <div class="profile-details">
+          <div class="profile-content">
+            <img src="C:\Users\M0053\Desktop\work\images\img1.jpeg" alt="profileImg">
+          </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="invoice-container">
+        <header>
+            <img src="C:\Users\M0053\Desktop\work\images\imgpb.jpeg" alt="logo" height="37px" width="37px" style="border-radius: 10px;">
+            <div class="header-text">
+              <h3>Progbiz Private Limited</h3>
+              <p>8484 Ross Wells</p>
+            </div>
+            <img src="C:\Users\M0053\Desktop\work\images\imgdwn.png" alt="logo" height="37px" width="37px" class="end-img" style="border: 0.5px solid lightgrey;border-radius: 8px;">
+          </header>
+        <main>
+            <div style="margin-top: 2em;">
+                <p><b>Invoices Breakdown</b></p>
+                <p>Learn more about invoices created</p>
+            </div>
+            <section class="invoice-types">
+                <div class="invoice-type">
+                <h3>All Invoices</h3>
+                <div style="display: flex; flex-direction: row;gap: 23em;"><p>Week Comparison</p><p style="font-size:small;"><b>$1,345</b></p></div>
+                <div class="progress-container">
+                    <div class="progress-bar progress-bar-1" id="progress-bar-1"></div>
+                </div>
+                </div>
+                <div class="invoice-type">
+                <h3>Scheduled</h3>
+                <div style="display: flex; flex-direction: row;gap: 23em;"><p>Month Comparison</p><p style="font-size:small;"><b>$3,820</b></p></div>
+                <div class="progress-container">
+                    <div class="progress-bar progress-bar-2" id="progress-bar-2"></div>
+                </div>
+                </div>
+                <div class="invoice-type">
+                <h3>Unpaid</h3>
+                <div style="display: flex; flex-direction: row;gap: 23em;"><p>Week Comparison</p><p style="font-size:small;"><b>$4,690</b></p></div>
+                <div class="progress-container">
+                    <div class="progress-bar progress-bar-3" id="progress-bar-3"></div>
+                </div>
+                </div>
+                <div class="invoice-type">
+                <h3>Paid</h3>
+                <div style="display: flex; flex-direction: row;gap: 23em;"><p>Month Comparison</p><p style="font-size:small;"><b>$3,820</b></p></div>
+                <div class="progress-container">
+                    <div class="progress-bar progress-bar-4" id="progress-bar-4"></div>
+                </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+
+    <div class="main-content">
+
+        <div class="container">
+            <div class="div-1">
+                <img src="C:\Users\M0053\Desktop\work\images\imgmenu.png" alt="logo" height="37px" width="37px" class="end-img" style="border: 0.5px solid lightgrey; border-radius: 8px;">
+                <p><b>New Invoice</b></p>
+            </div>
+            <div class="div-2">
+                <img src="C:\Users\M0053\Desktop\work\images\imgsearch.png" alt="logo" height="23px" width="23px" class="end-img" style="border: 0.5px solid lightgrey; border-radius: 8px;">
+                <img src="C:\Users\M0053\Desktop\work\images\imgplus.png" alt="logo" height="23px" width="23px" class="end-img" style="border: 0.5px solid lightgrey; border-radius: 8px;margin-left: 2em;">
+            </div>
+        </div>
+
+        <div class="main-container">
+
+            
+
+            <div class="upldimg-area">
+                <label for="input-file" id="drop-area">
+                    <input type="file" accept="image/*" id="input-file" hidden>
+                    <div id="img-view">
+                        <img src="C:\Users\M0053\Desktop\work\images\imgupld.png" alt="image-uplod">
+                        <p>UPLOAD IMAGE</p>
+                    </div>
+                </label>
+
+            </div>
+
+            <div class="side-part">
+                <div class="sidediv-1 active" style="border-top-left-radius: 10px;border-top-right-radius: 10px;">
+                    <img src="C:\Users\M0053\Desktop\work\images\imgcard.png" alt="icon">
+                    <div class="text-container">
+                        <p><b>Bill To</b></p>
+                        <p>Set your customers details</p>
+                    </div>
+                </div>
+                <div class="sidediv-1">
+                    <img src="C:\Users\M0053\Desktop\work\images\imgid.png" alt="icon">
+                    <div class="text-container">
+                        <p><b>From</b></p>
+                        <p>Set your persnol details</p>
+                    </div>
+                </div>
+                <div class="sidediv-1" style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;">
+                    <img src="C:\Users\M0053\Desktop\work\images\imgsuitcase.png" alt="icon">
+                    <div class="text-container">
+                        <p><b>Description</b></p>
+                        <p>Add Products or items</p>
+                    </div>
+                </div>
+                <div class="sidediv-1" style="margin-top: 22em;border-top-left-radius: 10px;border-top-right-radius: 10px;">
+                    <img src="C:\Users\M0053\Desktop\work\images\imgsave.png" alt="icon">
+                    <div class="text-container">
+                        <p><b>Save As Draft</b></p>
+                        <p>Edit and Send this Invoice letter</p>
+                    </div>
+                </div>
+                <div class="sidediv-1" style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;">
+                    <img src="C:\Users\M0053\Desktop\work\images\imgdelete.png" alt="icon">
+                    <div class="text-container">
+                        <p><b>Delete Invoice</b></p>
+                        <p>Hide and Disable curent Invoice</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="field1">Invoice number:</label>
+                        <input type="text" id="field1" name="field1" value="AA-04-19-1890">
+                    </div>
+                    <div class="form-group" style="margin-top: .4em;">
+                        <label for="field2">Template:</label>
+                        <select id="dropdown" name="dropdown">
+                            <option value="option1">Select Invoice Template</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                            <option value="option4">Option 4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="field3">Company name:</label>
+                        <input type="text" id="field3" name="field3" placeholder="Start Typing...">
+                    </div>
+                    <div class="form-group" style="margin-top: .4em;">
+                        <label for="field4">Date:</label>
+                        <input type="date" id="field4" name="field4" placeholder="Select due date">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="field5">Business Adress:</label>
+                        <input type="text" id="field5" name="field5" placeholder="Start Typing..." style="width: 47em;">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="field6">Field 6:</label>
+                        <select id="dropdown" name="dropdown" aria-placeholder="Select country">
+                            <option value="option1">Select country</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                            <option value="option4">Option 4</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="field7">Field 7:</label>
+                        <select id="dropdown" name="dropdown" aria-placeholder="Select City">
+                            <option value="option1">Select City</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                            <option value="option4">Option 4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="field8">Phone number:</label>
+                        <input type="text" id="field8" name="field8" placeholder="Start Typing...">
+                    </div>
+                    <div class="form-group">
+                        <label for="field9">Email:</label>
+                        <input type="text" id="field9" name="field9" placeholder="Start Typing...">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="field10">Tax rate:</label>
+                        <input type="text" id="field10" name="field10" placeholder="Start typing...">
+                    </div>
+                </div>
+                <div class="button-container">
+                    <button class="button1">Save & Send</button>
+                    <button class="button2">Cancel</button>
+                </div>
+            </div>
+
+
+            
+
+
+
+        </div>
+
+    </div>
+    
+    <script>
+        const navLinks = document.querySelectorAll('.nav-links li a');
+        navLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            navLinks.forEach(l => l.classList.remove('active'));
+            link.classList.add('active');
+          });
+        });
+
+        function setProgress(id, percentage) {
+        const progressBar = document.getElementById(id);
+        progressBar.style.width = percentage + '%';
+    }
+
+    setProgress('progress-bar-1', 80);
+    setProgress('progress-bar-2', 65);
+    setProgress('progress-bar-3', 20);
+    setProgress('progress-bar-4', 90);
+
+
+    const dropArea = document.getElementById("drop-area");
+    const inputFile = document.getElementById("input-file");
+    const imageView = document.getElementById("img-view");
+
+    inputFile.addEventListener("change", uploadImage);
+
+    function uploadImage(){
+        let imgLink = URL.createObjectURL (inputFile.files[0]);
+        imageView.style.backgroundImage = `url(${imgLink})`;
+        imageView.textContent = "";
+        imageView.style.border = 0;
+    }
+    dropArea.addEventListener("dragover", function(e){
+        e.preventDefault();
+    });
+    dropArea.addEventListener("drop", function(e){
+        e.preventDefault();
+        inputFile.files = e.dataTransfer.files;
+        uploadImage();
+    });
+
+
+    const sideDivs = document.querySelectorAll('.sidediv-1');
+
+        sideDivs.forEach(div => {
+            div.addEventListener('click', () => {
+                sideDivs.forEach(d => d.classList.remove('active'));
+                div.classList.add('active');
+            });
+        });
+
+    </script>
+</body>
+</html>
